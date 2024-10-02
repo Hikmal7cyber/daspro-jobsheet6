@@ -7,7 +7,8 @@ public class Pemilihan2Percobaan115 {
         System.out.print("Masukkan Tahun: ");
         int tahun15 = input15.nextInt();
 
-        if (tahun15 % 4 == 0 && tahun15 % 100 != 0){
+        if (tahun15 % 4 == 0)
+            if (tahun15 % 100 == 0){
                 System.out.println("Tahun Kabisat");
         }   else 
                 System.out.println("Bukan Tahun Kabisat");
